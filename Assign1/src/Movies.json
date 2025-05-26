@@ -1,0 +1,9 @@
+{
+    "movies": [
+        {"name": "The Shining", "year": "1980", "rating": "8.4"},
+        {"name": "The Sound Of Music", "year": "1965", "rating": "8.2"},
+        {"name": "Beetlejuice", "year": "1988", "rating": "7.5"},
+        {"name": "Wicked", "year": "2024", "rating": "7.5"},
+        {"name": "Oppenheimer", "year": "2023", "rating": "8.3"}
+    ]
+}
