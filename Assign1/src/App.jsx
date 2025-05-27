@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <MovieList Movies={Movies}/>
+      <MovieList movies={Movies.movies}/>
     </>
   )
 }

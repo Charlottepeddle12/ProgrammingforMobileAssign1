@@ -1,11 +1,11 @@
 import Movie from "./Movie"
 
-function MovieList(movies){
+function MovieList({movies}){
     return(
         <>
         {
             movies.map((movieData)=>{
-                return <Movie name={movieData.name} year={movieData.year} rating={movieData.year}/>
+                return <Movie name={movieData.name} year={movieData.year} rating={movieData.rating}/>
             })
         }
         </>
