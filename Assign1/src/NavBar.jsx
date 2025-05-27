@@ -1,4 +1,6 @@
 import { useState } from "react"
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 function NavBar(){
     let [buttontext, setText] = useState("Login");
@@ -6,7 +8,7 @@ function NavBar(){
         <>
         <h1>Assignment 1</h1>
 
-        <button onClick={()=>{
+        <button type="button" class="btn btn-primary" onClick={()=>{
             if(buttontext == "Login")
             {
                 setText("Logout");
